@@ -1,14 +1,14 @@
-import Movies from "./Components/movies.jsx"
+import {Lotr, Interstellar, Dune2, PrincessMononoke, DarkKnight, LawrenceOfArabia} from "./Components/movies.jsx"
 
 function App() {
   return (
     <>
-      <Movies />
-      <Movies />
-      <Movies />
-      <Movies />
-      <Movies />
-      <Movies />
+      <Lotr/>
+      <Interstellar/>
+      <Dune2/>
+      <PrincessMononoke/>
+      <DarkKnight/>
+      <LawrenceOfArabia/>
     </>
   )
 }

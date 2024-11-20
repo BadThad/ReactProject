@@ -16,7 +16,6 @@ export function Lotr() {
           the film managed to pull it off is a feat in and of itself 
           and is a testament to their dedication to bring this story 
           to life. I mean, I rewatch the trilogy pretty much every year!
-
         </p>
         </>
     )
