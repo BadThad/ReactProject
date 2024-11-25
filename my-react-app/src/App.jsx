@@ -3,6 +3,7 @@ import Home from "./pages/Home.jsx";
 import Counter from "./pages/Counter.jsx";
 import Contact from "./pages/Contact.jsx";
 import Navbar from "./navbar.jsx";
+import Footer from "./footer.jsx";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path = "/counter" element = {<Counter/>} />
           <Route path = "/contact" element = {<Contact/>} />
         </Routes>
+      <Footer></Footer>
       </BrowserRouter>
     </>
   )
