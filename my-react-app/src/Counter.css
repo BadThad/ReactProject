@@ -1,0 +1,47 @@
+body {
+    background-color: darkslategray;
+}
+
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    color: whitesmoke;
+    font-size: 100px;
+    font-family: math;
+    margin-top: 20vh;
+}
+
+.counter-btn button {
+    width: 10vw;
+    height: auto;
+    font-size: 50px;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+
+.decrease-btn {
+    background-color: orangered;
+    color: lightgray;
+    margin-right: 20px;
+}
+
+.increase-btn {
+    background-color: yellowgreen;
+    color: floralwhite;
+    margin-left: 20px;
+}
+
+.reset-btn {
+    background-color: lightgray;
+    color: darkslategray;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    height: 10vh;
+    width: 10vw;
+    margin-top: 30px;
+}
