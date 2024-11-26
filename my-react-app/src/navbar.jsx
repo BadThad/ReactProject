@@ -14,6 +14,9 @@ function Navbar () {
                         <Link to ="/counter">Counter</Link>
                     </li>
                     <li>
+                        <Link to ="/colorpicker">Color Picker</Link>
+                    </li>
+                    <li>
                         <Link to ="/contact">Contact</Link>
                     </li>
                 </ul>
