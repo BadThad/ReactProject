@@ -1,6 +1,6 @@
 import {useState} from "react";
 
-import "../Counter.css"
+import "../Counter.css";
 
 function Counter() {
     const [counter, setCounter] = useState (10); /* Counter is set with initial state of 10 */
