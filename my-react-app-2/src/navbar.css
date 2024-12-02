@@ -1,0 +1,32 @@
+.navbar-container {
+    width: 100%;
+    height: auto;
+    background-color: rgb(32, 32, 47);
+    border-bottom: 3px solid rgb(91, 91, 91);
+    position: sticky;
+    top: 0;
+    margin: 0;
+    padding: 20px 0px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0; 
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color:whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+li a:hover {
+    transform: scale(1.3);
+}
