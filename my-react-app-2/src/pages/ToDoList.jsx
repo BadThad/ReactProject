@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTrash } from '@fortawesome/free-solid-svg-icons'
 
 import "../ToDoList.css";
 
@@ -21,12 +23,15 @@ function ToDoList () {
             <h2 className="todolist-title">My ToDo List</h2>
             <ul>
                 {list.map((task, index) => (
-                    <li key={index}>{task}</li>
-                        
+                    <li key={index}> {task}
+                        <button className="delete-task-btn" onClick={ () => handleRemoveItem(index)}>
+                            <FontAwesomeIcon icon={faTrash}/>
+                        </button>
+                    </li>   
                 ))}
             </ul>
             <input type="text" placeholder="Type what you need to do..." id="itemInput"/>
-            <button onClick={handleAddItem}>Add to list</button>
+            <button className="add-item-btn" onClick={handleAddItem}>Add to list</button>
         </div>
     );
 }

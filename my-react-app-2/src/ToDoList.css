@@ -14,13 +14,14 @@
 .todolist-container ul {
     display: flex;
     flex-direction: column;
-    
+    width: 30%;
 }
 
 .todolist-container ul li {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: whitesmoke;
+    margin-top: 1vh;
 }
 
 .todolist-container input {
@@ -28,11 +29,21 @@
     margin-top: 5vh;
 }
 
-.todolist-container button {
+.add-item-btn {
     font-size: 16px;
     height: 5vh;
     width: 100px;
     background-color: peru;
     color: whitesmoke;
     margin-top: 3vh;
+}
+
+.delete-task-btn {
+    color: rgba(0, 0, 0, 0.6);
+    background-color: lightgray;
+    margin-left: 20px;
+    padding: 5px 7px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    float: right;
 }
