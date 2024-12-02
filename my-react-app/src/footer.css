@@ -3,9 +3,8 @@
     margin-bottom: 0;
     background-color: rgb(32, 32, 47);
     border-top: 3px solid rgb(91, 91, 91);
-    position: absolute;
     width: 100%;
-    height: 10%;
+    height: 9vh;
     bottom: 0;
 }
 
